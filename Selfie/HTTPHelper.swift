@@ -22,7 +22,7 @@ struct HTTPHelper {
     
     static let API_AUTH_NAME = "lexieernst"
     static let API_AUTH_PASSWORD = "wirgipuyntgdgeazgaxsfdiympeotytktsmcpvrqcvvucccmuhjloarhcuyuxuya"
-    static let BASE_URL = "https://limitless-lowlands-34602.herokuapp.com/"
+    static let BASE_URL = "https://limitless-lowlands-34602.herokuapp.com/api"
   
   func buildRequest(path: String!, method: String, authType: HTTPRequestAuthType,
     requestContentType: HTTPRequestContentType = HTTPRequestContentType.HTTPJsonContent, requestBoundary:String = "") -> NSMutableURLRequest {
