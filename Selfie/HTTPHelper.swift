@@ -20,9 +20,9 @@ enum HTTPRequestContentType {
 
 struct HTTPHelper {
     
-    static let API_AUTH_NAME = ""
-    static let API_AUTH_PASSWORD = ""
-    static let BASE_URL = ""
+    static let API_AUTH_NAME = "lexieernst"
+    static let API_AUTH_PASSWORD = "wirgipuyntgdgeazgaxsfdiympeotytktsmcpvrqcvvucccmuhjloarhcuyuxuya"
+    static let BASE_URL = "https://limitless-lowlands-34602.herokuapp.com/"
   
   func buildRequest(path: String!, method: String, authType: HTTPRequestAuthType,
     requestContentType: HTTPRequestContentType = HTTPRequestContentType.HTTPJsonContent, requestBoundary:String = "") -> NSMutableURLRequest {
