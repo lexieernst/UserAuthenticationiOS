@@ -190,7 +190,7 @@ class ViewController: UIViewController {
     func makeSignUpRequest(userName:String, userEmail:String, userPassword:String) {
         // 1. Create HTTP request and set request header
         let httpRequest = httpHelper.buildRequest("signup", method: "POST",
-                                                  authType: HTTPRequestAuthType.HTTPBasicAuth)
+            authType: HTTPRequestAuthType.HTTPBasicAuth)
         
         // 2. Password is encrypted with the API key
         let encrypted_password = AESCrypt.encrypt(userPassword, password: HTTPHelper.API_AUTH_PASSWORD)
