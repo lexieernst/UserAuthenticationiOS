@@ -1,9 +1,6 @@
 //
 //  SelfieCollectionViewController.swift
-//  Selfie
-//
-//  Created by Behera, Subhransu on 29/8/14.
-//  Copyright (c) 2014 subhb.org. All rights reserved.
+
 //
 
 import UIKit
