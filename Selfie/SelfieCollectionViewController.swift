@@ -58,8 +58,8 @@ class SelfieCollectionViewController: UICollectionViewController {
         var logOutBtn = UIBarButtonItem(title: "logout", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("logoutBtnTapped"))
         self.navigationItem.leftBarButtonItem = logOutBtn
         
-        var navCameraBtn = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: Selector("cameraBtnTapped"))
-        self.navigationItem.rightBarButtonItem = navCameraBtn
+        var navAddBtn = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: Selector("addBtnTapped"))
+        self.navigationItem.rightBarButtonItem = navAddBtn
     }
 
   
@@ -101,7 +101,7 @@ class SelfieCollectionViewController: UICollectionViewController {
         self.viewDidAppear(true)
     }
 
-    func cameraBtnTapped() {
+    func addBtnTapped() {
         displayCameraControl()
     }
   
