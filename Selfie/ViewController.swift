@@ -62,7 +62,7 @@ class ViewController: UIViewController {
                     self.signupBackgroundView.frame = CGRectMake(320, 134, 320, 284)
                     self.signinBackgroundView.alpha = 0.3
 
-                    self.signinBackgroundView.frame = CGRectMake(0, 134, 320, 284)
+                    self.signinBackgroundView.frame = CGRectMake(0, -40, 320, 284)
                     self.signinBackgroundView.alpha = 1.0
                 }, completion: nil)
         }
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         if self.signinEmailTextField.isFirstResponder() {
             self.signinEmailTextField.resignFirstResponder()
         }
-
+        
         if self.signinPasswordTextField.isFirstResponder() {
             self.signinPasswordTextField.resignFirstResponder()
         }
