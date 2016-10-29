@@ -58,7 +58,7 @@ class SelfieCollectionViewController: UICollectionViewController {
         var logOutBtn = UIBarButtonItem(title: "logout", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("logoutBtnTapped"))
         self.navigationItem.leftBarButtonItem = logOutBtn
         
-        var navCameraBtn = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Camera, target: self, action: Selector("cameraBtnTapped"))
+        var navCameraBtn = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: Selector("cameraBtnTapped"))
         self.navigationItem.rightBarButtonItem = navCameraBtn
     }
 
